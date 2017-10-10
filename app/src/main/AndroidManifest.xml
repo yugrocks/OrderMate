@@ -24,12 +24,6 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
         </activity>
         <activity android:name=".Login.LoginActivity" />
         <activity
@@ -48,12 +42,12 @@
         <activity
             android:name=".Adds.AddHomeActivity"
             android:label="@string/title_activity_add_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Adds.AddHotelActivity"
             android:label="@string/title_activity_add_hotel"
             android:theme="@style/AppTheme.NoActionBar"
-            android:windowSoftInputMode="adjustResize"></activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Opens.MyHotelOpenActivity"
             android:label="@string/title_activity_my_hotel_open"
@@ -61,9 +55,13 @@
         <activity
             android:name=".CartActivity"
             android:label="@string/title_activity_cart"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".SuperMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

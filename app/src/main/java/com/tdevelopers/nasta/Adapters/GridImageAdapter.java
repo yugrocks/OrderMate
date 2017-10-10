@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -23,9 +24,14 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
+import com.tdevelopers.nasta.Entities.JSONdata;
+import com.tdevelopers.nasta.Opens.HotelOpenActivity;
 import com.tdevelopers.nasta.R;
 
+import java.io.Serializable;
 import java.util.ArrayList;
+
+import javax.sql.DataSource;
 
 /**
  * Created by User on 6/4/2017.
@@ -37,17 +43,20 @@ public class GridImageAdapter extends BaseAdapter
     private Context mContext;
     private LayoutInflater mInflater;
     private int layoutResource;
-    private ArrayList<String> vendors;
+    private ArrayList<String> vendors,vendorImageURL;
+    private ArrayList<JSONdata> jsoNdatas;
     private String idurl;
     private boolean wait = false, nomoreposts = false, Private = false, internetworking = true;
 
 
-    public GridImageAdapter(Context context, int layoutResource, ArrayList<String> vendors)
+    public GridImageAdapter(Context context, int layoutResource, ArrayList<String> vendors, ArrayList<String> vendorImageURL, ArrayList<JSONdata> jsoNdatas)
     {
         mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         mContext = context;
         this.layoutResource = layoutResource;
         this.vendors = vendors;
+        this.vendorImageURL = vendorImageURL;
+        this.jsoNdatas = jsoNdatas;
     }
 
     private static class ViewHolder
@@ -75,42 +84,20 @@ public class GridImageAdapter extends BaseAdapter
         holder.StallName.setText(vendors.get(position));
 
 
-/*                Glide.with(mContext)
-                        .load(imgURL)
-                        .listener(new RequestListener<Drawable>()
-                        {
-                            @Override
-                            public boolean onLoadFailed(@Nullable GlideException e, Object model,
-                                                        Target<Drawable> target, boolean isFirstResource)
-                            {
-                                return false;
-                            }
-
-                            @Override
-                            public boolean onResourceReady(Drawable resource, Object model,
-                                                           Target<Drawable> target, DataSource dataSource,
-                                                           boolean isFirstResource)
-                            {
-                                if (holder.mProgressBar != null)
-                                {
-                                    holder.mProgressBar.setVisibility(View.GONE);
-                                }
-                                return false;
-                            }
-                        })
-                        .into(holder.image);*/
-        /*    convertView.setOnClickListener(new View.OnClickListener()
+               Glide.with(mContext)
+                       .load(vendorImageURL.get(position))
+                       .into(holder.StallImage);
+            convertView.setOnClickListener(new View.OnClickListener()
             {
                 @Override
                 public void onClick(View v)
                 {
-                    Intent intent = new Intent(mContext, SwipePic.class);
-                    intent.putStringArrayListExtra("urls", imgURLs);
-                    intent.putExtra("id", idurl);
-                    intent.putExtra("position", position);
+                    Intent intent = new Intent(mContext, HotelOpenActivity.class);
+                    intent.putExtra("data", jsoNdatas);
+                    intent.putExtra("vendor", vendors.get(position));
                     mContext.startActivity(intent);
                 }
-            });*/
+            });
         return convertView;
     }
 

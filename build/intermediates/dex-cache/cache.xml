@@ -2,301 +2,355 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\87ce5d3698ea82be09acd0f144cd585eeb487f8b\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_fb78c4cf1d38fff77b4aca8f4f621837827116e6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_c8634168c9c35065e12eaf1f79cbcaa0fa7c5cbd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\0dca2219fe8099e7b22ae807d4ab944408d05f93\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3c7817555c73949d37bacb2d50044fbf3251136c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\67f5c781230918b9338f0b58372f6abdc7ff8875\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b13d723b90ba8e6895fef85b8e2d0fa9aca4cfd0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\30a7f08c795bed9379fc644aec86de212c1bef2d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26b1a5fd1c616c53ba007fdc79d6c73294317d32\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\1070eeb723e3ce12e6f3a05f7c575986bd8b0cf4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae6b0e266f8bdce1ed592e0b78d12a85bf33e8c6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\793255979b5319d2edb7279b1b7747b3afad2c9a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_46e4ebe99f8806c487d9135580b3632dfbc52675\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_6b2bcffa3773cba420a601e5c6affa23a0f884d2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\15861da60c91ba7e0fa0e7406d7e684d2dabfc24\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="16795a75616fe3ba9df9ae4af09202145e3a26dc">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a96c25e97f083be7416d88b282b2b8d9c324277\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\30a7f08c795bed9379fc644aec86de212c1bef2d\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b79f6f3438eedcd2dc2f3ba5cc2f5ab4e0a347d3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\bc6fdd172d0f7bf727658da0420f185890a4438e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_512f9b4e4e24ff467737a4569058eb21de0af41e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\cb61d9bcfb0fa3b295ac2303f09a54263b323643\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c21c826588aab0ddad319c225c8c5226e46cd763\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\b6a3c9c1816083e2d2a2f3b9585bca0fa4ecc44b\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c73311d8e502d3f5f144c9738e3979261c8fcbe4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\98a4426d1026ecd95e6f912ed98f60518bce8c76\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_640d40072c1e3cf4bafa1503c3cb90978b6ada7f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\59dc367a19e02572bb3bbe7c288f4a542194f6f0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87901276274f8594b50ee88d869419b6ce47bddb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\87ce5d3698ea82be09acd0f144cd585eeb487f8b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af1ee75d5357c6711f47af09af921a1a71729282\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\272faae0e8e0a73a1b47b3bbfe92d5d5fcd03d19\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43e35357f548143f5cb71442b4ae7b92cf2f2650\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\7701429f2c7a58ff470a26c055592e7afa507d1f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0e61bbc84c73d25288a849a9b0d607a6c4359911\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\1bd8d22f4ca7c5d9f51ed3e7abbbc30384829a62\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_8020be7e17ad90afe9281aee8d7bbdbfad1911f1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\1bd8d22f4ca7c5d9f51ed3e7abbbc30384829a62\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8379c120bb6c3c9602e59b420d8965b7aa82677e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\b6a3c9c1816083e2d2a2f3b9585bca0fa4ecc44b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd136bb05fc6956f76f139e0faaaa479ccad40a0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_c64ebc04bee546d2da1becd8b310470d6231fb1e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\bc944e0c22ec9c5446182f3ed8c3342692041e60\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_daaf66c47c5ff71854ed57a5be0758b7d2821332\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\0dca2219fe8099e7b22ae807d4ab944408d05f93\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_1f96cab58a4c1e140e45f022b77b1cbbe08522ce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="G:\Android_Studio_Project\OrderMate\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6d2154a2abd64aa8920b18087f89976bd9eb78dd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\e4997a4ad13031129db988717047cac393d422e3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d1e3103454c3c7df12a27bcee948a38057c908d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\4a87030eb65a380c221b1cfae31bfa4fdeebaffe\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82e57f82b2df7232c37d8538485ebfaace0ac642\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\e4997a4ad13031129db988717047cac393d422e3\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\711e2408d505a1d000c1efc2ab7be10c1ba9c9b8\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_00c4aa05e554d52ca12f5631db1aab99cce7ff66\classes.dex" />
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_c253793d6437c8fd587cd508a04aac9898184011.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\1114dca001d31e641d4a2587cfe1e413c1de8efa\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\695c0fda9d7b3798d81b12e57c03de3406e5350e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_c3bbb6f823341670d02bb1ed83d38d5528201a6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\8d73b9b554beb657c34c14c96e4115dfcef7f1da\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_16bbdd86d80c20fef33f1495e7a81784d61c6673.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\bf697501c985d59ca1353e05eeb0c6362e70b521\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_724773bf9bbff3b139b5b6ec398e8e25d612e2e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\1640085afe694064096bc9b390c228b33b4e38a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_4488051c4eae390a07f7ecce6f1656a10bcfb3a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\3c3f95045d1562b8690c80480c1c3dc9beceaa9c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_f422c133477ec9e362636292ad6ab16d32ef6159.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\9a7c90d27d17faf6a83eaacf516b2bbe8ba6917c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_46a3dfc0ded64afcfad9ff47f00445e636e033d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\3a15b705040bdb97afde7a43e095340bff44be63\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_607fb998089a969be97118a1cfd64cf52ee8a826\classes.dex" />
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_7054877b63c9e7b225a251ecddf0dbf15ea5277e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\7878074622a5e4376ac90f459b6a0d3ae6411d8d\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\ad4bf34f008d44712c533c00444d5f49e5124b51\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_246a067008d673e2fbec705107f8b762befa042f\classes.dex" />
+        sha1="0772eec11be9e3803736882ae4bec4078986910e">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_a1d0e8fdfa28155edb0ea86493e10d686dd53259.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\2b46fe7ddffd5767d3b0ee74f91d3c3bca5ad406\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\677ddb49fcd0b5fad7b6d168b4aa60ab1b8f353f\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2298bc02349474f4c381449fed776d8255457ebe\classes.dex" />
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_738b084fdff1ee8fc94334f54a06d78875837286.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Programmer\.android\build-cache\954d3b9255d21a8c23f0b2f947e3744f1710da0b\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\9a7c90d27d17faf6a83eaacf516b2bbe8ba6917c\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_0a1fdc198d023fdca7f2a3abc57c4ba318fecb34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_74772df2a10e361b31905807d5b249e5e1224f20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\a2bd68a9022582ea6d5b64a4481a9bf29cafc53b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_51c6838cf1cb0c36e53b565bc7b31b855faa0581.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\gson-2.4_ace81a3b7abb316f47d0cf0fc9348c30652ab67f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\99cc0a9bc70d8b5a4b4f1656e66d7c83632d3268\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_cc15ace34661ebf80fbcf1733411046d512c48ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\7b8474e98fa6a379af9a33cd5cd72f803c2539b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_a51b50df4a76ae692a790042189a07b051703c18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\f982930fd91ea65122dcd23ec0f001642b0b7613\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_72e9da06c1dce410674ea8ebe1b26ed7dd17e7bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\a7fbe4b5fe74a07aa3774947e3ed3f4cf34ae3f9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_35594a78c9bc70e467f9c38ad6585c15108e8a0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\core-3.2.1_10c75f783dcda33561528562881320bf94469559.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\b8fa76a2ccbc17ff733f035511ba79847aa9c70b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_3220c567d800354e9e71a68b753b03e8196fdd99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\7b8474e98fa6a379af9a33cd5cd72f803c2539b8\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_aba4e60f34d47804dc65475d1b73e10245435db0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1933fe2d22c93b15ca68dd4fd1ca5f9951814368.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\cb78392b8cb3b074888a70d4285d54474d982d28\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="16795a75616fe3ba9df9ae4af09202145e3a26dc">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_6e192258ffd6cc767cf70adc5878065834faba6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\bee8509441d6dfcf324f7f34e904275146d7127d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_e8a4da11e392918c80ef146881ad757a420d7946.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\dfffeda7ebe5031aac1de6dc61eded6f60fa0488\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_26c5081901800980e3c5755a4c136620c9ad54c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\ffe7dc7fb113ec8e9b91aaaa63a05574311a88dd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_d601af761cc8252378ab5ec4e84ca2e98fa088ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\711e2408d505a1d000c1efc2ab7be10c1ba9c9b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_e63aae5036688527819437bd654b55cf6ef5acce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\ce655bba59eec83bfe6a4f92d0357617cca50f01\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_c307985e6d0cbee07e6650b7870871a2514977aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\a373d5f71a0fd7777a95050b6e2e58b25b2949c0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_a912776602b4aa6f520c3cb8e75988dd2cf6343a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_1ca5667370bff05a26bf3c9b0518a7a733f033e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\7006dc252d9cb0486112e19b34fc1f3880d310b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_be05a813c6d9991e37d425948be9051bf6cc285f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\ac0b65f8c471a70928c8985d895f9c0d58344b8e\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cdfea7099b4b0f10d07541dba324977a5a058672\classes.dex" />
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_2b3938b6a11b00e8873aff88bfa14625c310d612.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="G:\Android_Studio_Project\OrderMate\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\84e7fc59fc74d08186e16ea14a0f255921f0d2fd\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="6a275540b775c451444b1d329f5dcd708add8846">
-        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6d00db37f6c29dbc4ff9b652356266fd82efb673\classes.dex" />
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_9452f02bbd89234dbbb226fde0b73f99de6bd9bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\695c0fda9d7b3798d81b12e57c03de3406e5350e\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_efbb7062cf22bf228a7fd6b70a8129bb17c9e341.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\d4dce3667c94d5acb9939f667680c41a69c83cec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_3768d858dc299b294925ae16765b5b5b6af70b44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\8d73b9b554beb657c34c14c96e4115dfcef7f1da\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_a07d7c6d3f1017fd419ded15c807ff6fc6085113.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\59982cc039878c906ca70509406644a0559fd910\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_7f735c69fd41daad2dbe93361ad16c56fa1e94e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\7006dc252d9cb0486112e19b34fc1f3880d310b7\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a02dfb6fb648296aaa8b91581a7d45ab906f65bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Rahul\.android\build-cache\e38be61cb5f61f53da0e2d2bbd9555710cba18c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05e8375b2ec26e4508b2a745d5a0623ba95f9b49">
+        <dex dex="C:\Users\Rahul\Desktop\OrderMate\app\build\intermediates\pre-dexed\debug\classes_10e840618a9f8c897ee2c475013e8ba12f5bde33.jar" />
     </item>
 
 </items>

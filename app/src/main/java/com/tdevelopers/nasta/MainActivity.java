@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity
         dishrv.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         dishrv.setNestedScrollingEnabled(false);
         ArrayList<String> vendors = new ArrayList<>();
+        ArrayList<String> vendorImageURL = new ArrayList<>();
 
         for (int i = 0; i < length; i++)
         {
@@ -67,10 +68,11 @@ public class MainActivity extends AppCompatActivity
             {
                 Log.i(tag, "new : " + jsoNdata.get(i).vendor);
                 vendors.add(jsoNdata.get(i).vendor);
+                vendorImageURL.add(jsoNdata.get(i).vendorImageUrl);
             }
         }
 
-        GridImageAdapter adapter = new GridImageAdapter(this, R.layout.hotelview, vendors);
+        GridImageAdapter adapter = new GridImageAdapter(this, R.layout.hotelview, vendors,vendorImageURL,jsoNdata);
         gridView.setAdapter(adapter);
 
 
@@ -116,7 +118,9 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         gridView = (GridView) findViewById(R.id.gridView);
-        Ion.with(this).load("http://192.168.43.79:8000/restitems").asString().setCallback(new FutureCallback<String>()
+        String key = getIntent().getStringExtra("key");
+
+        Ion.with(this).load("http://192.168.43.79:8000/data/"+key).asString().setCallback(new FutureCallback<String>()
         {
             @Override
             public void onCompleted(Exception e, String result)
@@ -132,10 +136,11 @@ public class MainActivity extends AppCompatActivity
                         JSONObject jsonObject = jsonArray.getJSONObject(i);
                         String category = jsonObject.getString("category");
                         String price = jsonObject.getString("price");
-                        String vendor = jsonObject.getString("vendor");
+                        String vendor = jsonObject.getString("brand");
                         String name = jsonObject.getString("name");
+                        String vendorImageURL = jsonObject.getString("vendor_image");
                         String image = jsonObject.getString("image");
-                        JSONdata temp = new JSONdata(vendor, category, name, image, Integer.parseInt(price));
+                        JSONdata temp = new JSONdata(vendor, category, name, "http://192.168.43.79:8000" +image,"http://192.168.43.79:8000" + vendorImageURL, Integer.parseInt(price));
                         jsoNdata.add(temp);
                     }
                     init();
