@@ -5,7 +5,8 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class Vendor(models.Model):
-    username = models.CharField(max_length=1000)
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    #username = models.CharField(max_length=1000)
     brand = models.CharField(max_length = 1000)
     code = models.CharField(max_length = 1000, default="np")
     stall_no = models.IntegerField(null=False)
@@ -15,18 +16,18 @@ class Vendor(models.Model):
         verbose_name = "Vendor"
 
     def __str__(self):
-        return self.username
+        return self.user.username
 
 class Item(models.Model):
 	vendor = models.ForeignKey(Vendor, on_delete=models.CASCADE)
-	name = models.CharField(max_length=1000)
+	item_name = models.CharField(max_length=1000)
 	price = models.IntegerField()
 	type_choices = (
 		('VEG', 'Vegetarian'),
 		('NON', 'Non-Vegetarian'),
 		('SOF', 'Soft-Drinks'),
 		('BEV', 'Beverages'))
-	category = models.CharField(max_length=3, choices=type_choices, default='VEG')
+	category = models.CharField(max_length=3, choices=type_choices, default='VEG', verbose_name="Category")
 	type_food = (
 		('bf', 'Breakfast'),
 		('lun', 'Lunch'),
@@ -38,7 +39,7 @@ class Item(models.Model):
 		verbose_name = "Item"
 
 	def __str__(self):
-		return self.name
+		return self.item_name
 
 
 
