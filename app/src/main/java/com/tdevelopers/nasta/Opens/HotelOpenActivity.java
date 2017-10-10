@@ -73,7 +73,7 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
                         case 2:
                             return "Offers";
                         case 3:
-                            return "Reviews";
+                            return "Trending Now";
 
                     }
                     return "";
@@ -113,7 +113,7 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hotel_open);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setTitle("Green Chutneys");
+        setTitle("Green Chutneys");                             //change this
         setSupportActionBar(toolbar);
         if (getIntent().getExtras() != null && getIntent().getExtras().getString("id") != null && getIntent().getExtras().getString("id").trim().length() != 0)
             id = getIntent().getExtras().getString("id");

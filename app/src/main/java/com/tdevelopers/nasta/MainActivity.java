@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         t[3] = (TextView) findViewById(R.id.t4);
 
 
-        FirebaseDatabase.getInstance().getReference("Hotels").orderByChild("rating").limitToFirst(4).addValueEventListener(new ValueEventListener() {
+        /*FirebaseDatabase.getInstance().getReference("Hotels").orderByChild("rating").limitToFirst(4).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Query q = FirebaseDatabase.getInstance().getReference("Dishes").orderByChild("rating").limitToFirst(10);
         dishrv.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         dishrv.setAdapter(new HomeFoodItemsAdapter(q, Dish.class));
-
+*/
     }
 
     @Override

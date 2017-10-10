@@ -3,318 +3,300 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jar="C:\Users\Programmer\.android\build-cache\87ce5d3698ea82be09acd0f144cd585eeb487f8b\output\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_e92979556ef4b0e409c7ad971690e6c125063218\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_4dbfd481156972e719774fd63a493d7650cba31c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_637a80be40a41b6f68a364fbb3a7d681bd09cec0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_4fc681b1dc27d08e5ca918061fae25730bfd7bdc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.1.0_26816988db41f402e16dd2cb55701a6d6fb0b9e9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_0796d03792039da4c497664c6a494ce2e588982f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_125b3eebcc3c3fd898245fa35d55863f7df5140f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="90a41b8b01ae35d42b829aeb879e4fb9c9980558">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b986660059a720e46c4c92b0220f8595faffcc8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_00209d31a0e607a4df90b71bffa3d8261099b449\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_58f90adc92aec1a8b12b23eb85832592b568724b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5ac3b866889ae5a0081e2e48ca9e4aab548353b8">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_be1f57148ace570c975fe1b0de333283abd9a380\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_e68214848609a5e7bd6b19c1976bc85308475a23\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-10.0.1_e7eeea4f7f552cf81eddd5dd649051cf17a16a78\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_6a7fe06bd0f6da09605a17aa883fd39290a6011c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.0.1_00a93a402e9c7352c0bf1554d7d0e426491e5237\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_8fe26404c5adc44f863a545331e1cd0839048de3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_4eba893a942ead75bcbee0b3f9207cb5ca775e57\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.0.1_f5ec0a6eee8782d4a84a239dccc215a33b1ef196\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.0.1_ee52eb9ca10b1d6bd6f0ab820f9d62480ae5638c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_2377a06f733bed5608a99f59f2bbe36a23d01306\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-10.0.1_4827dbe0fadd807f3048f4bb2845b9dadacebe70\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_6d04a0af39bcacd0cb6067acef8ef9f32dcef648\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.3.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.zhanghai.android.materialprogressbar-library-1.3.0_0c440124cede2629d1d4256e1fe4aa6f63993fea\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.0.1_c59b5913d7a393c6048f5eb367578592c22a4957\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-25.0.0_754a2289f0676140f9e2caa3abe45558661d008a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_bdce17e3359e0583e7887ec31d265332964815a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
+        revision="25.0.0"
         sha1="67355078cd30daae43f62ba47a4663ee6edb976e">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_8b972afb509526d7506009806080a39ce5743de8\classes.dex" />
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_fb78c4cf1d38fff77b4aca8f4f621837827116e6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\Programmer\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_01fff47a0fd1bb0a4c6f8136e03a6299484dd13b\classes.dex" />
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_c8634168c9c35065e12eaf1f79cbcaa0fa7c5cbd\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jar="C:\Users\Programmer\.android\build-cache\0dca2219fe8099e7b22ae807d4ab944408d05f93\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_03070b068ea651a3e57af7acc1a214ca601a3653\classes.dex" />
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3c7817555c73949d37bacb2d50044fbf3251136c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jar="C:\Users\Programmer\.android\build-cache\67f5c781230918b9338f0b58372f6abdc7ff8875\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_103e0a05226b8559dd8cb282c9ff1938a1df9990\classes.dex" />
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b13d723b90ba8e6895fef85b8e2d0fa9aca4cfd0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jar="C:\Users\Programmer\.android\build-cache\30a7f08c795bed9379fc644aec86de212c1bef2d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_0ca62717caa5d73fcc22fd53331cd57167c83a99\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
+        revision="25.0.0"
         sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_77b3b1db975dd3bc74afd53854df025c36b94760\classes.dex" />
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26b1a5fd1c616c53ba007fdc79d6c73294317d32\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jar="C:\Users\Programmer\.android\build-cache\1070eeb723e3ce12e6f3a05f7c575986bd8b0cf4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_26e0a7e3ec391521f2ae6e166356d53c1591aa5a\classes.dex" />
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae6b0e266f8bdce1ed592e0b78d12a85bf33e8c6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.afollestad.material-dialogs\core\0.9.1.0\jars\classes.jar"
+        jar="C:\Users\Programmer\.android\build-cache\793255979b5319d2edb7279b1b7747b3afad2c9a\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_46e4ebe99f8806c487d9135580b3632dfbc52675\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_6b2bcffa3773cba420a601e5c6affa23a0f884d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\15861da60c91ba7e0fa0e7406d7e684d2dabfc24\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="16795a75616fe3ba9df9ae4af09202145e3a26dc">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.afollestad.material-dialogs-core-0.9.1.0_c97a0be2fd1ea28f119b792a6b0d01b2e0db47eb\classes.dex" />
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a96c25e97f083be7416d88b282b2b8d9c324277\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jar="C:\Users\Programmer\.android\build-cache\30a7f08c795bed9379fc644aec86de212c1bef2d\output\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.2"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b79f6f3438eedcd2dc2f3ba5cc2f5ab4e0a347d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\bc6fdd172d0f7bf727658da0420f185890a4438e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\saitej dandge\Desktop\Android Projects\Nasta\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_1b5a614e6281f5e27cd0bca9be9c267a6f385996\classes.dex" />
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_512f9b4e4e24ff467737a4569058eb21de0af41e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\cb61d9bcfb0fa3b295ac2303f09a54263b323643\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c21c826588aab0ddad319c225c8c5226e46cd763\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\b6a3c9c1816083e2d2a2f3b9585bca0fa4ecc44b\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_c73311d8e502d3f5f144c9738e3979261c8fcbe4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\98a4426d1026ecd95e6f912ed98f60518bce8c76\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_640d40072c1e3cf4bafa1503c3cb90978b6ada7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\59dc367a19e02572bb3bbe7c288f4a542194f6f0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_87901276274f8594b50ee88d869419b6ce47bddb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\87ce5d3698ea82be09acd0f144cd585eeb487f8b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ac094121e75b4b87432beb9305d70c68ec6dcab">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af1ee75d5357c6711f47af09af921a1a71729282\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\272faae0e8e0a73a1b47b3bbfe92d5d5fcd03d19\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43e35357f548143f5cb71442b4ae7b92cf2f2650\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\7701429f2c7a58ff470a26c055592e7afa507d1f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0e61bbc84c73d25288a849a9b0d607a6c4359911\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\1bd8d22f4ca7c5d9f51ed3e7abbbc30384829a62\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_8020be7e17ad90afe9281aee8d7bbdbfad1911f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\1bd8d22f4ca7c5d9f51ed3e7abbbc30384829a62\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8379c120bb6c3c9602e59b420d8965b7aa82677e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\b6a3c9c1816083e2d2a2f3b9585bca0fa4ecc44b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dd136bb05fc6956f76f139e0faaaa479ccad40a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_c64ebc04bee546d2da1becd8b310470d6231fb1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\bc944e0c22ec9c5446182f3ed8c3342692041e60\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_daaf66c47c5ff71854ed57a5be0758b7d2821332\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\0dca2219fe8099e7b22ae807d4ab944408d05f93\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_1f96cab58a4c1e140e45f022b77b1cbbe08522ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\Android_Studio_Project\OrderMate\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_6d2154a2abd64aa8920b18087f89976bd9eb78dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\e4997a4ad13031129db988717047cac393d422e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d1e3103454c3c7df12a27bcee948a38057c908d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\4a87030eb65a380c221b1cfae31bfa4fdeebaffe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82e57f82b2df7232c37d8538485ebfaace0ac642\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\e4997a4ad13031129db988717047cac393d422e3\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_00c4aa05e554d52ca12f5631db1aab99cce7ff66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\1114dca001d31e641d4a2587cfe1e413c1de8efa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_607fb998089a969be97118a1cfd64cf52ee8a826\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\7878074622a5e4376ac90f459b6a0d3ae6411d8d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_246a067008d673e2fbec705107f8b762befa042f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\2b46fe7ddffd5767d3b0ee74f91d3c3bca5ad406\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a846ddbf5bf88dee5f89d4dffe22c864f576d9b0">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2298bc02349474f4c381449fed776d8255457ebe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Programmer\.android\build-cache\954d3b9255d21a8c23f0b2f947e3744f1710da0b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cdfea7099b4b0f10d07541dba324977a5a058672\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\Android_Studio_Project\OrderMate\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a275540b775c451444b1d329f5dcd708add8846">
+        <dex dex="G:\Android_Studio_Project\OrderMate\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6d00db37f6c29dbc4ff9b652356266fd82efb673\classes.dex" />
     </item>
 
 </items>
