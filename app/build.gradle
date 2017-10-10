@@ -37,6 +37,8 @@ dependencies {
     compile 'com.google.firebase:firebase-database:10.0.1'
     compile 'com.afollestad.material-dialogs:core:0.9.1.0'
     compile 'com.google.code.gson:gson:2.4'
+    compile 'com.koushikdutta.ion:ion:2.2.1'
+
 
 }
 
