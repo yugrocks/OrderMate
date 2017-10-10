@@ -11,22 +11,29 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 
 import com.google.gson.Gson;
 import com.tdevelopers.nasta.ApiHelper;
 import com.tdevelopers.nasta.CartActivity;
+import com.tdevelopers.nasta.Entities.JSONdata;
 import com.tdevelopers.nasta.HotelOpenFragments.DaySpecialFragments;
 import com.tdevelopers.nasta.HotelOpenFragments.ItemsFragment;
 import com.tdevelopers.nasta.HotelOpenFragments.OffersFragment;
 import com.tdevelopers.nasta.HotelOpenFragments.ReviewsFragment;
 import com.tdevelopers.nasta.R;
 
+import java.util.ArrayList;
+
 public class HotelOpenActivity extends AppCompatActivity implements View.OnClickListener {
 
     TabLayout tabLayout;
     ViewPager mpager;
+    private ArrayList<JSONdata> jsoNdatas;
+    private static final String tag = HotelOpenActivity.class.getSimpleName();
+    private String vendor;
     CollapsingToolbarLayout collapsingToolbarLayout;
     public static String id;
 
@@ -83,20 +90,6 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
 
 
         }
-
-        new AsyncTask<String, Void, String>() {
-            @Override
-            protected String doInBackground(String... strings) {
-                return ApiHelper.getData(strings[0]);
-            }
-
-            @Override
-            protected void onPostExecute(String s) {
-                super.onPostExecute(s);
-                Gson gson = new Gson();
-
-            }
-        }.execute(ApiHelper.getCollectionUrl("hotels") + "&q={\"_id\":" + id + "  }");
     }
 
     @Override
@@ -113,7 +106,12 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hotel_open);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setTitle("Green Chutneys");                             //change this
+        vendor = getIntent().getStringExtra("vendor");
+//        Bundle args = getIntent().getBundleExtra("Bundle");
+//        jsoNdatas = (ArrayList<JSONdata>) args.getSerializable("data");
+        jsoNdatas = getIntent().getParcelableArrayListExtra("data");
+        Log.d(tag, String.valueOf(jsoNdatas.size()));
+        setTitle(vendor);                             //change this
         setSupportActionBar(toolbar);
         if (getIntent().getExtras() != null && getIntent().getExtras().getString("id") != null && getIntent().getExtras().getString("id").trim().length() != 0)
             id = getIntent().getExtras().getString("id");
