@@ -14,7 +14,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 urlpatterns = [
     url(r'^data/(?P<data>[a-z0-9]+)$', views.home, name='home'),
     url(r'^register$', views.register, name='register'),
-    url(r'^restitems$', views.restitems, name='rest'),
+    url(r'^restitems/(?P<data>[a-z0-9]+)$', views.restitems, name='rest'),
     url(r'^restvendors$', views.restvendors, name='restvendors'),
 	url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]

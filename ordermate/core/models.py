@@ -9,6 +9,7 @@ class Vendor(models.Model):
     brand = models.CharField(max_length = 1000)
     code = models.CharField(max_length = 1000, default="np")
     stall_no = models.IntegerField(null=False)
+    vendor_image = models.FileField()
 
     class Meta:
         verbose_name = "Vendor"
