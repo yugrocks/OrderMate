@@ -8,8 +8,6 @@
     tools:context="com.tdevelopers.nasta.Opens.HotelOpenActivity">
 
 
-    <include layout="@layout/content_hotel_open" />
-
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="260dp"
@@ -81,4 +79,6 @@
         app:fabSize="normal"
         app:layout_behavior="com.tdevelopers.nasta.Libraries.FAB_HIDE"
         app:srcCompat="@drawable/ic_shopping_cart_white_24dp" />
+
+    <include layout="@layout/content_hotel_open" />
 </android.support.design.widget.CoordinatorLayout>

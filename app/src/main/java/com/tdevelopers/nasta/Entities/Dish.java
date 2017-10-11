@@ -9,13 +9,14 @@ public class Dish {
 
     public String name;
     public double rating;
-    public double price;
+    public int price;
     public int category;
     public String id;
 
-    public Dish(String pic, String name) {
+    public Dish(String pic, String name,int price) {
         this.pic = pic;
         this.name = name;
+        this.price = price;
 
     }
 }

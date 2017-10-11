@@ -34,6 +34,7 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
     private ArrayList<JSONdata> jsoNdatas;
     private static final String tag = HotelOpenActivity.class.getSimpleName();
     private String vendor;
+    private String username;
     CollapsingToolbarLayout collapsingToolbarLayout;
     public static String id;
 
@@ -52,8 +53,7 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
                 public Fragment getItem(int position) {
                     switch (position % 4) {
                         case 0:
-                            return ItemsFragment.newInstance();
-
+                            return ItemsFragment.newInstance(jsoNdatas,username,vendor);
                         case 1:
                             return DaySpecialFragments.newInstance();
                         case 2:
@@ -107,6 +107,7 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
         setContentView(R.layout.activity_hotel_open);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         vendor = getIntent().getStringExtra("vendor");
+        username = getIntent().getStringExtra("username");
 //        Bundle args = getIntent().getBundleExtra("Bundle");
 //        jsoNdatas = (ArrayList<JSONdata>) args.getSerializable("data");
         jsoNdatas = getIntent().getParcelableArrayListExtra("data");

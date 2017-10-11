@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AddField(
-            model_name='vendor',
+            model_name='username',
             name='vendor_image',
             field=models.FileField(default=1, upload_to=b''),
             preserve_default=False,

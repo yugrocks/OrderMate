@@ -11,21 +11,21 @@ import json
 def home(request, data):#this view sends vendors with a given code
 	response = list()
 	lst = Vendor.objects.all()
-	# for vendor in lst:
-	# 	if vendor.code == data:
+	# for username in lst:
+	# 	if username.code == data:
 	# 		items = dict()
-	# 		items['username'] = vendor.username
-	# 		items['brand'] = vendor.brand
-	# 		items['stall_no'] = vendor.stall_no
-	# 		items['vendor_image'] = vendor.vendor_image.url
+	# 		items['username'] = username.username
+	# 		items['brand'] = username.brand
+	# 		items['stall_no'] = username.stall_no
+	# 		items['vendor_image'] = username.vendor_image.url
 			# response.append(items)
 	for item in Item.objects.all():
-		if item.vendor.code == data:
+		if item.username.code == data:
 			items = dict()
-			items['username'] = item.vendor.user.username
-			items['brand'] = item.vendor.brand
-			items['stall_no'] = item.vendor.stall_no
-			items['vendor_image'] = item.vendor.vendor_image.url
+			items['username'] = item.username.user.username
+			items['brand'] = item.username.brand
+			items['stall_no'] = item.username.stall_no
+			items['vendor_image'] = item.username.vendor_image.url
 			items['name'] = item.item_name
 			items['price'] = item.price
 			items['image'] = item.image.url
@@ -48,7 +48,7 @@ def restitems(request, code):
 	lst = Item.objects.all()
 	for item in lst:
 		items = dict()
-		items['vendor'] = item.vendor.user.username
+		items['username'] = item.username.user.username
 		items['name'] = item.item_name
 		items['price'] = item.price
 		items['image'] = item.image.url
@@ -59,11 +59,11 @@ def restitems(request, code):
 def restvendors(request):
 	response = list()
 	lst = Vendor.objects.all()
-	for vendor in lst:
+	for username in lst:
 		items = dict()
-		items['username'] = vendor.user.username
-		items['brand'] = vendor.brand
-		items['stall_no'] = vendor.stall_no
+		items['username'] = username.user.username
+		items['brand'] = username.brand
+		items['stall_no'] = username.stall_no
 		response.append(items)
 	return HttpResponse(json.dumps(response))
 

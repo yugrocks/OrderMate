@@ -7,13 +7,23 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context="com.tdevelopers.nasta.SuperMainActivity">
 
+    <TextView
+        android:layout_above="@+id/scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="25dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textColor="#000"
+        android:text="Scan QR Code to proceed to book your meal..."/>
+
 <ImageButton
-    android:layout_alignParentBottom="true"
     android:layout_centerInParent="true"
     android:id="@+id/scan"
-    android:layout_marginBottom="25dp"
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:background="@color/colorPrimary"/>
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:background="@drawable/scan"/>
 
 </RelativeLayout>

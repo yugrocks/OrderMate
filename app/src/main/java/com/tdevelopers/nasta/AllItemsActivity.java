@@ -21,7 +21,7 @@ public class AllItemsActivity extends AppCompatActivity {
         ArrayList<Dish> data = new ArrayList<>();
 
         for (int i = 0; i < 20; i++)
-            data.add(new Dish("http://www.telegraphindia.com/1120615/images/15food1.jpg", "Puri"));
+            data.add(new Dish("http://www.telegraphindia.com/1120615/images/15food1.jpg", "Puri",90));
         allitems.setAdapter(new DishDetailedAdapter(data));
 
     }

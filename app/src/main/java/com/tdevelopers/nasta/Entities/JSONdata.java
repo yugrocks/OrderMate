@@ -14,9 +14,11 @@ public class JSONdata implements Parcelable
     public String foodName;
     public String foodImageUrl;
     public String vendorImageUrl;
+    public String foodType;
+    public String username;
     public int price;
 
-    public JSONdata(String vendor,String category,String foodName,String foodImageUrl,String vendorImageUrl,int price)
+    public JSONdata(String vendor,String category,String foodName,String foodImageUrl,String vendorImageUrl,int price,String foodType,String username)
     {
         this.vendor = vendor;
         this.category = category;
@@ -24,6 +26,8 @@ public class JSONdata implements Parcelable
         this.foodName = foodName;
         this.vendorImageUrl = vendorImageUrl;
         this.price = price;
+        this.foodType = foodType;
+        this.username = username;
     }
 
     public JSONdata(Parcel in) {
@@ -50,6 +54,8 @@ public class JSONdata implements Parcelable
         this.foodName = in.readString();
         this.vendorImageUrl = in.readString();
         this.price = in.readInt();
+        this.foodType = in.readString();
+        this.username =in.readString();
 
     }
     public int describeContents() {
@@ -63,6 +69,8 @@ public class JSONdata implements Parcelable
         dest.writeString(this.foodName);
         dest.writeString(this.vendorImageUrl);
         dest.writeInt(this.price);
+        dest.writeString(this.foodType);
+        dest.writeString(this.username);
     }
 
 }
