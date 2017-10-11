@@ -1,8 +1,11 @@
 package com.tdevelopers.nasta.Adapters;
 
 import android.content.Context;
+import android.net.Uri;
+import android.os.AsyncTask;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,41 +13,49 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.tdevelopers.nasta.ApiHelper;
+import com.google.gson.JsonObject;
+import com.koushikdutta.async.future.FutureCallback;
+import com.koushikdutta.ion.Ion;
 import com.tdevelopers.nasta.Entities.Dish;
 import com.tdevelopers.nasta.R;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Formatter;
 
 /**
  * Created by saitej dandge on 25-12-2016.
  */
 
 public class HotelItemsAdapter extends RecyclerView.Adapter {
-    Dish[] data;
+    ArrayList<Dish> data;
     Context context;
+    String username;
+    String vendor;
     int VIEW_TYPE_HEADER = 0;
 
     int VIEW_TYPE_NON_HEADER = 1;
 
-    public HotelItemsAdapter(Dish[] data) {
+    public HotelItemsAdapter(ArrayList<Dish> data,String username,String vendor) {
         this.data = data;
+        this.username = username;
+        this.vendor = vendor;
     }
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        if (viewType == VIEW_TYPE_NON_HEADER) {
             View itemView = LayoutInflater.
                     from(parent.getContext()).
                     inflate(R.layout.dish_rv_item, parent, false);
             this.context = parent.getContext();
             return new HotelItemsAdapter.HotelItemsViewHolder(itemView);
-        } else {
-
-            View itemView = LayoutInflater.
-                    from(parent.getContext()).
-                    inflate(R.layout.item_header, parent, false);
-            this.context = parent.getContext();
-            return new HeaderViewHolder(itemView);
-        }
     }
 
     @Override
@@ -57,28 +68,51 @@ public class HotelItemsAdapter extends RecyclerView.Adapter {
     }
 
     @Override
-    public void onBindViewHolder(RecyclerView.ViewHolder outholder, int position) {
+    public void onBindViewHolder(RecyclerView.ViewHolder outholder,final int position) {
 
-        if (outholder instanceof HotelItemsViewHolder) {
             HotelItemsViewHolder holder = (HotelItemsViewHolder) outholder;
-            Dish current = data[position - 1];
+            Dish current = data.get(position);
             if (current != null) {
                 holder.name.setText(current.name);
                 Glide.with(context).load(current.pic).into(holder.pic);
-                holder.rating.setText(current.rating + "");
-                holder.price.setText(current.price + "");
+                holder.price.setText("Rs." + current.price);
             }
-        }
+            holder.addtocart.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Snackbar.make(view, "Added to cart", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                    /*JsonObject json = new JsonObject();
+                    json.addProperty("foodName", data.get(position).name );
+                    json.addProperty("username", username);
+                    json.addProperty("count", 1);
+                    Log.d("HotelItemsAdapter",username + " "+ data.get(position).name);
+
+                    Ion.with(context)
+                            .load("http://192.168.43.79:8000/receiveorder")
+                            .setJsonObjectBody(json)
+                            .asJsonObject()
+                            .setCallback(new FutureCallback<JsonObject>() {
+                                @Override
+                                public void onCompleted(Exception e, JsonObject result) {
+                                    Log.d("Hotel Adapter","added in cart");
+                                }
+                            });*/
 
 
+                    postdata temp = new postdata();
+                    temp.execute(position);
+
+                }
+            });
     }
 
     @Override
     public int getItemCount() {
-        return data != null ? data.length + 1 : 0;
+        return data.size();
     }
 
-    class HotelItemsViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    class HotelItemsViewHolder extends RecyclerView.ViewHolder {
 
 
         TextView name;
@@ -95,16 +129,6 @@ public class HotelItemsAdapter extends RecyclerView.Adapter {
             price = (TextView) itemView.findViewById(R.id.price);
             rating = (TextView) itemView.findViewById(R.id.rating);
             addtocart = (ImageView) itemView.findViewById(R.id.addtocart);
-            addtocart.setOnClickListener(this);
-        }
-
-        @Override
-        public void onClick(View view) {
-
-            Snackbar.make(view, "Added to cart", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show();
-            ApiHelper.currentUser.addToCart(data[getLayoutPosition()].id);
-
         }
     }
 
@@ -112,6 +136,33 @@ public class HotelItemsAdapter extends RecyclerView.Adapter {
 
         public HeaderViewHolder(View itemView) {
             super(itemView);
+        }
+    }
+
+    class postdata extends AsyncTask<Integer,Integer,String>
+    {
+        @Override
+        protected String doInBackground(Integer... params) {
+            String DATA=null;
+            String urlParameters = "{\"username\" : \""+username+ "\",foodName : \""
+                    +data.get(params[0]).name+"\", count : \"1\"}";
+            Log.d("HotelItemsAdapter",urlParameters);
+            String baseAddress="http://192.168.43.79:8000/receiveorder/"+urlParameters;
+            try
+            {
+                URL url= new URL(baseAddress);
+                HttpURLConnection urlconnection= (HttpURLConnection) url.openConnection();
+                urlconnection.setRequestMethod("GET");
+                urlconnection.connect();
+            }
+            catch(IOException e)
+            {
+                Log.e("cloudConnect", "Error ", e);
+                return null;
+            }
+
+            return null;
+
         }
     }
 }

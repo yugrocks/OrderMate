@@ -16,24 +16,21 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="200dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/backy" />
-
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/dishrv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:layout_marginTop="8dp" />
-
-
-
         </LinearLayout>
 
         <RelativeLayout
             android:id="@+id/rl"
             android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ll">
@@ -43,21 +40,11 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
-
                 android:layout_marginLeft="16dp"
                 android:text="Food Stores"
+                android:textSize="16sp"
                 android:textColor="@color/colorAccent"
                 android:textStyle="bold" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-
-                android:layout_centerVertical="true"
-                android:layout_marginRight="16dp"
-                android:text="More"
-                android:theme="@style/AppTheme.Button" />
 
         </RelativeLayout>
 
@@ -66,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/rl"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="5dp"
             android:gravity="center"
             android:horizontalSpacing="1dp"
             android:numColumns="2"

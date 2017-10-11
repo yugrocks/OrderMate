@@ -1,5 +1,6 @@
 package com.tdevelopers.nasta.Adapters;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -7,6 +8,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,6 +27,7 @@ import com.bumptech.glide.request.target.Target;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
 import com.tdevelopers.nasta.Entities.JSONdata;
+import com.tdevelopers.nasta.MainActivity;
 import com.tdevelopers.nasta.Opens.HotelOpenActivity;
 import com.tdevelopers.nasta.R;
 
@@ -43,13 +46,14 @@ public class GridImageAdapter extends BaseAdapter
     private Context mContext;
     private LayoutInflater mInflater;
     private int layoutResource;
-    private ArrayList<String> vendors,vendorImageURL;
+    private ArrayList<String> vendors,vendorImageURL,usernames;
     private ArrayList<JSONdata> jsoNdatas;
     private String idurl;
+    private Activity activity;
     private boolean wait = false, nomoreposts = false, Private = false, internetworking = true;
 
 
-    public GridImageAdapter(Context context, int layoutResource, ArrayList<String> vendors, ArrayList<String> vendorImageURL, ArrayList<JSONdata> jsoNdatas)
+    public GridImageAdapter(Activity activity,Context context, int layoutResource, ArrayList<String> vendors, ArrayList<String> vendorImageURL,ArrayList<String> usernames, ArrayList<JSONdata> jsoNdatas)
     {
         mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         mContext = context;
@@ -57,6 +61,8 @@ public class GridImageAdapter extends BaseAdapter
         this.vendors = vendors;
         this.vendorImageURL = vendorImageURL;
         this.jsoNdatas = jsoNdatas;
+        this.activity = activity;
+        this.usernames = usernames;
     }
 
     private static class ViewHolder
@@ -87,15 +93,18 @@ public class GridImageAdapter extends BaseAdapter
                Glide.with(mContext)
                        .load(vendorImageURL.get(position))
                        .into(holder.StallImage);
-            convertView.setOnClickListener(new View.OnClickListener()
+        convertView.setOnClickListener(new View.OnClickListener()
             {
                 @Override
                 public void onClick(View v)
                 {
                     Intent intent = new Intent(mContext, HotelOpenActivity.class);
                     intent.putExtra("data", jsoNdatas);
+                    intent.putExtra("username", usernames.get(position));
                     intent.putExtra("vendor", vendors.get(position));
-                    mContext.startActivity(intent);
+                    intent.putExtra("stallImage",vendorImageURL.get(position));
+                    ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(activity,v.findViewById(R.id.i1),"stallImage");
+                    mContext.startActivity(intent,optionsCompat.toBundle());
                 }
             });
         return convertView;

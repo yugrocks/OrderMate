@@ -12,6 +12,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -43,9 +45,9 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity
 {
 
+    private RecyclerView dishrv;
     private ArrayList<JSONdata> jsoNdata;
     private int length;
-    private RecyclerView dishrv;
     private static final String tag = MainActivity.class.getSimpleName();
     private FrameLayout f[];
     private GridView gridView;
@@ -55,11 +57,10 @@ public class MainActivity extends AppCompatActivity
 
     public void init()
     {
-        dishrv = (RecyclerView) findViewById(R.id.dishrv);
-        dishrv.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        dishrv.setNestedScrollingEnabled(false);
+
         ArrayList<String> vendors = new ArrayList<>();
         ArrayList<String> vendorImageURL = new ArrayList<>();
+        ArrayList<String> usernames = new ArrayList<>();
 
         for (int i = 0; i < length; i++)
         {
@@ -69,43 +70,19 @@ public class MainActivity extends AppCompatActivity
                 Log.i(tag, "new : " + jsoNdata.get(i).vendor);
                 vendors.add(jsoNdata.get(i).vendor);
                 vendorImageURL.add(jsoNdata.get(i).vendorImageUrl);
+                usernames.add(jsoNdata.get(i).username);
             }
         }
 
-        GridImageAdapter adapter = new GridImageAdapter(this, R.layout.hotelview, vendors,vendorImageURL,jsoNdata);
+        GridImageAdapter adapter = new GridImageAdapter(this,this, R.layout.hotelview, vendors,vendorImageURL,usernames,jsoNdata);
         gridView.setAdapter(adapter);
 
-
-        /*FirebaseDatabase.getInstance().getReference("Hotels").orderByChild("rating").limitToFirst(4).addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-
-                if (dataSnapshot.getValue() != null) {
-                    int ij = 0;
-                    for (DataSnapshot d : dataSnapshot.getChildren()) {
-
-                        data[ij++] = d.getValue(Hotel.class);
-                    }
-
-                    for (int k = 0; k < data.length; k++)
-                        Glide.with(MainActivity.this).load(data[k].pic).into(i[k]);
-
-                    for (int k = 0; k < data.length; k++)
-                        t[k].setText(data[k].name);
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-
-        Query q = FirebaseDatabase.getInstance().getReference("Dishes").orderByChild("rating").limitToFirst(10);
+        dishrv = (RecyclerView) findViewById(R.id.dishrv);
         dishrv.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        dishrv.setAdapter(new HomeFoodItemsAdapter(q, Dish.class));
-*/
+        dishrv.setNestedScrollingEnabled(false);
+        dishrv.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+        dishrv.setAdapter(new HomeFoodItemsAdapter(this,jsoNdata));
+
 
 
     }
@@ -114,6 +91,9 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -140,7 +120,9 @@ public class MainActivity extends AppCompatActivity
                         String name = jsonObject.getString("name");
                         String vendorImageURL = jsonObject.getString("vendor_image");
                         String image = jsonObject.getString("image");
-                        JSONdata temp = new JSONdata(vendor, category, name, "http://192.168.43.79:8000" +image,"http://192.168.43.79:8000" + vendorImageURL, Integer.parseInt(price));
+                        String foodType = jsonObject.getString("food_type");
+                        String username = jsonObject.getString("username");
+                        JSONdata temp = new JSONdata(vendor, category, name, "http://192.168.43.79:8000" +image,"http://192.168.43.79:8000" + vendorImageURL, Integer.parseInt(price),foodType,username);
                         jsoNdata.add(temp);
                     }
                     init();

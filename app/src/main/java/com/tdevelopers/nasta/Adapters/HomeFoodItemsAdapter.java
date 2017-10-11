@@ -2,99 +2,106 @@ package com.tdevelopers.nasta.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-import com.google.firebase.database.Query;
 import com.tdevelopers.nasta.AllItemsActivity;
-import com.tdevelopers.nasta.Entities.Dish;
+import com.tdevelopers.nasta.Entities.JSONdata;
 import com.tdevelopers.nasta.R;
 
-import de.hdodenhof.circleimageview.CircleImageView;
+import java.util.ArrayList;
 
 /**
  * Created by saitej dandge on 20-02-2017.
  */
 
-public class HomeFoodItemsAdapter extends FirebaseRecyclerAdapter<HomeFoodItemsAdapter.HomeFoodItemViewHolder, Dish> {
-    Context context;
+public class HomeFoodItemsAdapter extends RecyclerView.Adapter {
 
-    public HomeFoodItemsAdapter(Query query, Class<Dish> itemClass) {
-        super(query, itemClass);
+    ArrayList<String> foodType;
+    ArrayList<Bitmap> foodTypeImage;
+    ArrayList<JSONdata> jsoNdatas;
+    Context mcontext;
+
+    public HomeFoodItemsAdapter(Context mcontext, ArrayList<JSONdata> jsoNdatas) {
+        foodType = new ArrayList<>();
+        foodTypeImage = new ArrayList<>();
+        foodType.add("Tiffins");
+        foodType.add("Fast Food");
+        foodType.add("Veg");
+        foodType.add("Non-Veg");
+        this.mcontext = mcontext;
+        this.jsoNdatas = jsoNdatas;
+        Bitmap temp = BitmapFactory.decodeResource(mcontext.getResources(), R.drawable.tiffin);
+        foodTypeImage.add(temp);
+        temp = BitmapFactory.decodeResource(mcontext.getResources(), R.drawable.fast);
+        foodTypeImage.add(temp);
+        temp = BitmapFactory.decodeResource(mcontext.getResources(), R.drawable.vegi);
+        foodTypeImage.add(temp);
+        temp = BitmapFactory.decodeResource(mcontext.getResources(), R.drawable.nonveg);
+        foodTypeImage.add(temp);
     }
 
     @Override
-    public HomeFoodItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.
                 from(parent.getContext()).
                 inflate(R.layout.dish_tile, parent, false);
-        this.context = parent.getContext();
-        return new HomeFoodItemViewHolder(itemView);
+        return new HomeFoodItemsAdapter.HotelItemsViewHolder(itemView);
     }
 
     @Override
-    public void onBindViewHolder(HomeFoodItemViewHolder holder, int position) {
-        try {
-            Dish current = getItem(position);
-            if (current != null) {
-                //Toast.makeText(context, current.pic+"", Toast.LENGTH_SHORT).show();
-                //   Picasso.with(context).load(current.pic).into(holder.pic);
-                holder.name.setText(current.name);
-                Glide.with(context).load(current.pic).into(holder.pic);
+    public int getItemViewType(int position) {
+        return 0;
 
+    }
+
+    @Override
+    public void onBindViewHolder(RecyclerView.ViewHolder outholder,final int position) {
+
+        HomeFoodItemsAdapter.HotelItemsViewHolder holder = (HomeFoodItemsAdapter.HotelItemsViewHolder) outholder;
+        holder.name.setText(foodType.get(position));
+        holder.pic.setImageBitmap(foodTypeImage.get(position));
+        holder.pic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mcontext, AllItemsActivity.class);
+                intent.putParcelableArrayListExtra("data",jsoNdatas);
+                Log.d("Gome ood Adapter",String.valueOf(jsoNdatas.size()));
+                intent.putExtra("type",foodType.get(position));
+                mcontext.startActivity(intent);
             }
-        } catch (Exception e) {
-
-        } catch (Error e) {
-
-        }
-    }
-
-
-    @Override
-    protected void itemAdded(Dish item, String key, int position) {
-
+        });
     }
 
     @Override
-    protected void itemChanged(Dish oldItem, Dish newItem, String key, int position) {
-
+    public int getItemCount() {
+        return 4;
     }
 
-    @Override
-    protected void itemRemoved(Dish item, String key, int position) {
+    class HotelItemsViewHolder extends RecyclerView.ViewHolder {
 
-    }
-
-    @Override
-    protected void itemMoved(Dish item, String key, int oldPosition, int newPosition) {
-
-    }
-
-    public class HomeFoodItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-
-        CircleImageView pic;
         TextView name;
-        View itemView;
+        ImageView pic;
 
-        public HomeFoodItemViewHolder(View itemView) {
+        HotelItemsViewHolder(View itemView) {
             super(itemView);
-            this.itemView = itemView;
-            pic = (CircleImageView) itemView.findViewById(R.id.pic);
+
             name = (TextView) itemView.findViewById(R.id.name);
-            this.itemView.setOnClickListener(this);
-        }
-
-        @Override
-        public void onClick(View view) {
-            view.getContext().startActivity(new Intent(view.getContext(), AllItemsActivity.class));
-
-
+            pic = (ImageView) itemView.findViewById(R.id.pic);
         }
     }
 
+    class HeaderViewHolder extends RecyclerView.ViewHolder {
+
+        public HeaderViewHolder(View itemView) {
+            super(itemView);
+        }
+    }
 }

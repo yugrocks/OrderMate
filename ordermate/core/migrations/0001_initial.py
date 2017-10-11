@@ -35,7 +35,7 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('brand', models.CharField(max_length=1000)),
                 ('stall_no', models.IntegerField()),
-                ('user_name', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, related_name='vendor', to=settings.AUTH_USER_MODEL, verbose_name='Name')),
+                ('user_name', models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, related_name='username', to=settings.AUTH_USER_MODEL, verbose_name='Name')),
             ],
             options={
                 'verbose_name': 'Vendor',
@@ -43,7 +43,7 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='item',
-            name='vendor',
+            name='username',
             field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='core.Vendor'),
         ),
     ]

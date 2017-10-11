@@ -1,5 +1,6 @@
 package com.tdevelopers.nasta;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -60,7 +61,8 @@ public class CartActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.checkout) {
-            return true;
+            Intent intent = new Intent(this,Checkout.class);
+            startActivity(intent);
         } else if (id == R.id.totalcost) {
             return true;
         }

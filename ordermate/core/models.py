@@ -19,7 +19,7 @@ class Vendor(models.Model):
         return self.user.username
 
 class Item(models.Model):
-	vendor = models.ForeignKey(Vendor, on_delete=models.CASCADE)
+	username = models.ForeignKey(Vendor, on_delete=models.CASCADE)
 	item_name = models.CharField(max_length=1000)
 	price = models.IntegerField()
 	type_choices = (

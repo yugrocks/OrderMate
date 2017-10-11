@@ -13,11 +13,11 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RemoveField(
-            model_name='vendor',
+            model_name='username',
             name='user_name',
         ),
         migrations.AddField(
-            model_name='vendor',
+            model_name='username',
             name='username',
             field=models.CharField(default=1, max_length=1000),
             preserve_default=False,

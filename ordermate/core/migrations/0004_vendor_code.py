@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AddField(
-            model_name='vendor',
+            model_name='username',
             name='code',
             field=models.CharField(default='np', max_length=1000),
         ),

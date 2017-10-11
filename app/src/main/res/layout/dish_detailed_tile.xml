@@ -130,16 +130,6 @@
                 android:src="@drawable/ic_add_shopping_cart_black_24dp"
                 android:id="@+id/add" />
 
-            <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:src="@drawable/veg"
-                android:layout_alignBottom="@+id/name"
-                android:layout_toRightOf="@+id/price"
-                android:layout_toEndOf="@+id/price"
-                android:layout_marginLeft="12dp"
-                android:layout_marginStart="12dp"
-                android:layout_alignTop="@+id/name" />
         </RelativeLayout>
 
 

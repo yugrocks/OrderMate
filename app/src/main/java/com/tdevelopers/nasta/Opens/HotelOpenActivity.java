@@ -14,7 +14,9 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.tdevelopers.nasta.ApiHelper;
 import com.tdevelopers.nasta.CartActivity;
@@ -34,6 +36,7 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
     private ArrayList<JSONdata> jsoNdatas;
     private static final String tag = HotelOpenActivity.class.getSimpleName();
     private String vendor;
+    private String username;
     CollapsingToolbarLayout collapsingToolbarLayout;
     public static String id;
 
@@ -52,8 +55,7 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
                 public Fragment getItem(int position) {
                     switch (position % 4) {
                         case 0:
-                            return ItemsFragment.newInstance();
-
+                            return ItemsFragment.newInstance(jsoNdatas, username, vendor);
                         case 1:
                             return DaySpecialFragments.newInstance();
                         case 2:
@@ -106,7 +108,12 @@ public class HotelOpenActivity extends AppCompatActivity implements View.OnClick
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hotel_open);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        ImageView imageView = (ImageView) findViewById(R.id.stallImagePage);
+        Glide.with(this)
+                .load(getIntent().getStringExtra("stallImage"))
+                .into(imageView);
         vendor = getIntent().getStringExtra("vendor");
+        username = getIntent().getStringExtra("username");
 //        Bundle args = getIntent().getBundleExtra("Bundle");
 //        jsoNdatas = (ArrayList<JSONdata>) args.getSerializable("data");
         jsoNdatas = getIntent().getParcelableArrayListExtra("data");
