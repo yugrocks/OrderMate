@@ -1,6 +1,8 @@
 package com.tdevelopers.nasta.Adapters;
 
 import android.content.Context;
+import android.net.Uri;
+import android.os.AsyncTask;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -17,7 +19,16 @@ import com.koushikdutta.ion.Ion;
 import com.tdevelopers.nasta.Entities.Dish;
 import com.tdevelopers.nasta.R;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
+import java.util.Formatter;
 
 /**
  * Created by saitej dandge on 25-12-2016.
@@ -71,13 +82,14 @@ public class HotelItemsAdapter extends RecyclerView.Adapter {
                 public void onClick(View view) {
                     Snackbar.make(view, "Added to cart", Snackbar.LENGTH_LONG)
                             .setAction("Action", null).show();
-                    JsonObject json = new JsonObject();
+                    /*JsonObject json = new JsonObject();
                     json.addProperty("foodName", data.get(position).name );
-                    json.addProperty("usernmae", username);
+                    json.addProperty("username", username);
                     json.addProperty("count", 1);
+                    Log.d("HotelItemsAdapter",username + " "+ data.get(position).name);
 
                     Ion.with(context)
-                            .load("http://192.168.43.237:8000/sendorder")
+                            .load("http://192.168.43.79:8000/receiveorder")
                             .setJsonObjectBody(json)
                             .asJsonObject()
                             .setCallback(new FutureCallback<JsonObject>() {
@@ -85,7 +97,11 @@ public class HotelItemsAdapter extends RecyclerView.Adapter {
                                 public void onCompleted(Exception e, JsonObject result) {
                                     Log.d("Hotel Adapter","added in cart");
                                 }
-                            });
+                            });*/
+
+
+                    postdata temp = new postdata();
+                    temp.execute(position);
 
                 }
             });
@@ -120,6 +136,33 @@ public class HotelItemsAdapter extends RecyclerView.Adapter {
 
         public HeaderViewHolder(View itemView) {
             super(itemView);
+        }
+    }
+
+    class postdata extends AsyncTask<Integer,Integer,String>
+    {
+        @Override
+        protected String doInBackground(Integer... params) {
+            String DATA=null;
+            String urlParameters = "{\"username\" : \""+username+ "\",foodName : \""
+                    +data.get(params[0]).name+"\", count : \"1\"}";
+            Log.d("HotelItemsAdapter",urlParameters);
+            String baseAddress="http://192.168.43.79:8000/receiveorder/"+urlParameters;
+            try
+            {
+                URL url= new URL(baseAddress);
+                HttpURLConnection urlconnection= (HttpURLConnection) url.openConnection();
+                urlconnection.setRequestMethod("GET");
+                urlconnection.connect();
+            }
+            catch(IOException e)
+            {
+                Log.e("cloudConnect", "Error ", e);
+                return null;
+            }
+
+            return null;
+
         }
     }
 }

@@ -61,10 +61,6 @@ public class SuperMainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this,MainActivity.class);
                 intent.putExtra("key",key);
                 startActivity(intent);
-                Toast.makeText(this, key, Toast.LENGTH_LONG).show();
-
-
-
 
                 //if qr contains data
 //                try {
