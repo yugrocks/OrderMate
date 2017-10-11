@@ -2,6 +2,8 @@
 from __future__ import unicode_literals
 
 from django.shortcuts import render
+from django.contrib.auth.models import User
+from django.contrib.auth import authenticate
 from django.http import HttpResponse
 from .models import *
 import json
@@ -40,7 +42,9 @@ def register(request):
 	username = json_data['username']
 	password = json_data['password']
 	user = User.objects.create_user(username=username, password=password)
+	
 	user.save()
+
 	return HttpResponse('user registered')
 
 def restitems(request, code):
