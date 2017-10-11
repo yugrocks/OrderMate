@@ -17,3 +17,4 @@ class ItemAdmin(admin.ModelAdmin):
 
 admin.site.register(Vendor, VendorAdmin)
 admin.site.register(Item, ItemAdmin)
+admin.site.register(Order)

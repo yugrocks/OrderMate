@@ -14,9 +14,18 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 urlpatterns = [
     url(r'^data/(?P<data>[a-z0-9]+)$', views.home, name='home'),
     url(r'^register$', views.register, name='register'),
+    url(r'^signup$', views.signup, name='signup'),
+    url(r'^signin$', views.signin, name='signin'),
+    url(r'^dashboard$', views.dashboard, name='dashboard'),
+    url(r'^logout$', views.signout, name='signout'),
+    url(r'^profile$', views.profile, name='profile'),
+    url(r'^additem$', views.additem, name='additem'),
+    url(r'^receiveorder$', views.receive_order, name='receiveorder'),
+    url(r'^iteminsert$', views.iteminsert, name='iteminsert'),
     url(r'^restitems/(?P<data>[a-z0-9]+)$', views.restitems, name='rest'),
     url(r'^restvendors$', views.restvendors, name='restvendors'),
-	url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^listitems$', views.listitems, name='listitems'),
 ]
 
 if settings.DEBUG:

@@ -41,6 +41,13 @@ class Item(models.Model):
 	def __str__(self):
 		return self.item_name
 
+class Order(models.Model):
+	vendor = models.ForeignKey(Vendor, on_delete=models.CASCADE) #for which vendor
+	count = models.IntegerField()
+	foodname = models.CharField(max_length = 1000)
+	prepared = models.BooleanField()
 
+	def __str__(self):
+		return self.foodname
 
 
